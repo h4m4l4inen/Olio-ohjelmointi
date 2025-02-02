@@ -36,22 +36,3 @@ int Chef::makeSoup(int soupIng)
     }
     return portions;
 }
-
-/*
-Toteuta luokka ItalianChef, joka perii Chef-luokan.
-Lisää luokkaan luokkakaavion mukaiset jäsenmuuttujat.
-
-Salasanalle annetaan alustusarvoksi pizza.
-
-Jäsenfunktio askSecret() tarkistaa onko parametrinä annettu salasana ok,
-ja jos on, kutsuu makePizza()-jäsenfunktiota.
-Muut parametrit ovat ainesten eli jauhojen (flour) ja veden (water) määrä.
-Funktio palauttaa true/false sen mukaan oliko salasana oikea.
-
-makePizza tekee pizzoja niin paljon kuin aineksi riittää, yhteen pizzaan tarvitaan:
-5 ainesta jauhoja
-5 ainesta vettä
-
-makePizza() on privaatti siksi, että se on salainen
-ja sitä ei voi muuten kutsua kun tietämällä salasanan
-(muitakin tapoja tehdä tarkistus kyllä on..). */
